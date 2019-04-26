@@ -179,6 +179,15 @@ li {
     padding: 0 2.5rem;
 }
 
+nav a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav a:hover {
+    text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
 .jumbotron {
     margin: 0 0 1rem 0;
 }
@@ -298,4 +307,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    border-bottom: 1px dashed #000;
+}
+
+.top-content-about .text-container {
+    padding: 1rem;
 }
