@@ -316,3 +316,30 @@ footer nav a {
 .top-content-about .text-container {
     padding: 1rem;
 }
+
+.middle-content-about {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 1rem;
+    width: 46%;
+    padding: 1rem 0;
+    border-bottom: 1px dashed #000;
+}
+
+.card h4 {
+    margin-top: 1rem;
+}
+
+.card button {
+    margin: 1rem 0 .5rem 0;
+    padding: .5rem 1rem;
+    font-size: 1.05rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: .6rem;
+}
