@@ -343,3 +343,7 @@ footer nav a {
     border: 2px solid black;
     border-radius: .6rem;
 }
+
+.bottom-content-about .text-container {
+    margin: 2rem 1rem;
+}
