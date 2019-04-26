@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: baseline;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 0 2.5rem;
+}
+
+.jumbotron {
+    margin: 0 0 1rem 0;
+}
+
+.jumbo-img {
+    width: 100%
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
