@@ -34,22 +34,45 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+In simple terms, HTML semantic tags gives meaning to the contents of a web page rather than just serving as presentational tags. Semantic HTML in this regard can be considered as a webpage that uses semantic tags to markup its content as applicaple. For example, using the nav tag as opposed to the div tag to markup the navigation bar of a webpage.
+
+Other examples of semantic tags are (but not limited to):
+
+* header
+* section
+* article
+* footer
+* aside
+* main
+* figure
+* figcaption
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block allows width and height on elements while inline does not
+
+in display: inline, margin and padding properties are ignored while block respects the padding and margin.
 
 3. What are the 4 areas of the box model?
 
+content area, padding area, border area, margin area
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+secondary axis
+
 5. Explain why git is valuable to a team of developers.
+
+git is valuable to a team of developers as it avail them the opportunity to have different branches of the same project that is in sync with a master branch. Each developer can easily work on a feature on his branch of the repository and when the feature is complete and the team members agree on it's quality, the feature can be merged to the master branch which other team members have access to too. git is also a version control system that help team of developers track their history of development and who does what when.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [*] Create a forked copy of this project.
+- [*] Add your project manager as collaborator on Github.
+- [*] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [*] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
